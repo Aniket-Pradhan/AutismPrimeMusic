@@ -4,7 +4,7 @@ from pydub.playback import play
 
 def myfunc(octaves):
 
-	sound = AudioSegment.from_file('recordedFile.wav', format="mp3")
+	sound = AudioSegment.from_file('../Data/recordedFile.wav', format="wav")
 # shift the pitch up by half an octave (speed will increase proportionally)
 	octaves = octaves
 
